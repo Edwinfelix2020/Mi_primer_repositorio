@@ -38,7 +38,7 @@ body{
 }
 
 .footer{
-    background-color: blue;
+    background-color: rebeccapurple;
     display: flex;  
     margin-bottom: 35px;
 }
@@ -77,3 +77,7 @@ position: absolute;
 color: cornsilk;
 }
 
+.servicios__contenedor{
+    justify-content: center;
+    align-items: center;
+}
