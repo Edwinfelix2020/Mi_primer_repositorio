@@ -1,24 +1,79 @@
 body{
     font-family: sans-serif;
     width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .header{
     background-color: aqua;
+    margin-bottom: 35px;
 }
 
 .servicios{
-    background-color: aqua;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-bottom: 35px;
 }
 
 .noticias{
     background-color: aqua;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.noticias{
+    display: flex;   
 }
 
 .miembros{
     background-color: aqua;
+    display: flex;   
+    justify-content: space-evenly;
+    margin-bottom: 35px;
 }
 
 .footer{
     background-color: blue;
+    display: flex;  
+    margin-bottom: 35px;
 }
+
+.barra_superior{
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+.menu_principal{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+.titulo_principal, .contenedor_menu{
+    width: 50%;
+}
+
+.menu_principal_item> a{
+   text-decoration: none;
+}
+
+.menu_principal_item> a:hover{
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.barner{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.barner__titulo{
+position: absolute;
+color: cornsilk;
+}
+
